@@ -1,0 +1,2 @@
+MONGO_URI = "mongodb+srv://<usernaem>:<password>@cluster0.47wrb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+JWT_SECRET = "Ironamn"
