@@ -42,7 +42,7 @@ const Home = () => {
   // get all notes
   const getAllNotes = async () => {
     try {
-      const res = await axios.get("https://note-book-api-two.vercel.app/api/note/all", {
+      const res = await axios.get("https://notebook-nsdd.onrender.com/api/note/all", {
         withCredentials: true,
       })
 
@@ -69,7 +69,7 @@ const Home = () => {
 
     try {
       const res = await axios.delete(
-        "https://note-book-api-two.vercel.app/api/note/delete/" + noteId,
+        "https://notebook-nsdd.onrender.com/api/note/delete/" + noteId,
         { withCredentials: true }
       )
 
@@ -87,7 +87,7 @@ const Home = () => {
 
   const onSearchNote = async (query) => {
     try {
-      const res = await axios.get("https://note-book-api-two.vercel.app/api/note/search", {
+      const res = await axios.get("https://notebook-nsdd.onrender.com/api/note/search", {
         params: { query },
         withCredentials: true,
       })
@@ -115,7 +115,7 @@ const Home = () => {
 
     try {
       const res = await axios.put(
-        "https://note-book-api-two.vercel.app/api/note/update-note-pinned/" + noteId,
+        "https://notebook-nsdd.onrender.com/api/note/update-note-pinned/" + noteId,
         { isPinned: !noteData.isPinned },
         { withCredentials: true }
       )

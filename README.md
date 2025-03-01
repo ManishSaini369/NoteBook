@@ -19,7 +19,7 @@ This repository consists of two main projects:
    ```sh
    npm run dev
    ```
-4. The backend will run on **https://note-book-api-two.vercel.app**.
+4. The backend will run on **https://notebook-nsdd.onrender.com**.
 
 ### Frontend Setup
 1. Navigate to the `frontend` folder:

@@ -17,7 +17,7 @@ const AddEditNotes = ({ onClose, noteData, type, getAllNotes }) => {
 
     try {
       const res = await axios.post(
-        "https://note-book-api-two.vercel.app/api/note/edit/" + noteId,
+        "https://notebook-nsdd.onrender.com/api/note/edit/" + noteId,
         { title, content, tags },
         { withCredentials: true }
       )
@@ -45,7 +45,7 @@ const AddEditNotes = ({ onClose, noteData, type, getAllNotes }) => {
   const addNewNote = async () => {
     try {
       const res = await axios.post(
-        "https://note-book-api-two.vercel.app/api/note/add",
+        "https://notebook-nsdd.onrender.com/api/note/add",
         { title, content, tags },
         { withCredentials: true }
       )

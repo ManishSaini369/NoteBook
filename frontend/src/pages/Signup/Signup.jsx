@@ -36,7 +36,7 @@ const Signup = () => {
     // sign up api
     try {
       const res = await axios.post(
-        "https://note-book-api-two.vercel.app/api/auth/signup",
+        "https://notebook-nsdd.onrender.com/api/auth/signup",
         { username: name, email, password },
         { withCredentials: true }
       )
